@@ -1,0 +1,8 @@
+version: '3'
+services:
+  node-server:
+    build: .
+    restart: always
+    ports:
+      - "5100:5100"
+ 
